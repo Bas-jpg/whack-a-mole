@@ -1,0 +1,255 @@
+* {
+    font-family: verdana;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #474350;
+}
+
+.border {
+    border-left: 90px solid #20bf55;
+    height: 1000px;
+    position: absolute;
+}
+
+.home {
+    background-color: #757575;
+    color: #FBFBFF;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    transition: 0.5s;
+    border-radius: 25%;
+    border: 1px solid;
+}
+
+.home:hover {
+    background-color: #c7c7c7;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    rotate: 380deg;
+    transform: scale(1.1);
+}
+
+.counter {
+    font-size: 100px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.gameboard {
+    width: 925px;
+    height: 925px;
+    left: 26%;
+    border: 2px solid;
+    position: absolute;
+    background-color: #ff8552;
+    top: 110px;
+}
+
+.mole {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 25%;
+    transition: 0.5s;
+    border: 1px;
+}
+
+.mole:disabled {
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.mole1 {
+    top: 75px;
+    left: 55px;
+    background-color: purple;
+}
+
+
+.mole2 {
+    top: 75px;
+    left: 278.3px;
+    background-color: blue;
+}
+
+.mole3 {
+    top: 75px;
+    left: 501.6px;
+    background-color: red;
+}
+
+.mole4 {
+    top: 275px;
+    left: 55px;
+    background-color: yellow;
+}
+
+.mole5 {
+    top: 275px;
+    left: 278.3px;
+    background-color: green;
+}
+
+.mole6 {
+    top: 275px;
+    left: 501.6px;
+    background-color: purple;
+}
+
+.mole7 {
+    top: 475px;
+    left: 55px;
+    background-color: blue;
+}
+
+.mole8 {
+    top: 475px;
+    left: 278.3px;
+    background-color: red;
+}
+
+.mole9 {
+    top: 475px;
+    left: 501.6px;
+    background-color: yellow;
+}
+
+.mole10 {
+    top: 675px;
+    left: 55px;
+    background-color: green;
+}
+
+.mole11 {
+    top: 675px;
+    left: 278.3px;
+    background-color: purple;
+}
+
+.mole12 {
+    top: 675px;
+    left: 501.6px;
+    background-color: blue;
+}
+
+.mole13 {
+    top: 75px;
+    left: 724.9px;
+    background-color: red;
+}
+
+.mole14 {
+    top: 275px;
+    left: 724.9px;
+    background-color: yellow;
+}
+
+.mole15 {
+    top: 475px;
+    left: 724.9px;
+    background-color: green;
+}
+
+.mole16 {
+    top: 675px;
+    left: 724.9px;
+    background-color: purple;
+}
+
+
+.mole:hover {
+    cursor: pointer;
+}
+
+.startButton {
+    width: 703px;
+    height: 703px;
+    left: 32%;
+    border: 2px solid;
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 20%;
+    font-size: 200px;
+    z-index: 3;
+}
+
+.owntext {
+    position: absolute;
+    left: 100px;
+    font-size: 40px;
+    top: 110px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #ff8552;
+    text-align: center;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.promptButton {
+    position: absolute;
+    left: 100px;
+    font-size: 20px;
+    top: 10px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 80px;
+    width: 200px;
+    background-color: #757575;
+    color: #FBFBFF;
+    transition: 0.5s;
+}
+
+.promptButton:hover {
+    background-color: #c7c7c7;
+    color: black;
+    border: 1px solid black;
+}
+
+.minusPoint {
+    width: 929px;
+    height: 857px;
+    left: 26%;
+    border: 2px solid;
+    position: absolute;
+    background-color: red;
+    top: 110px;
+    z-index: 1;
+    opacity: 0%;
+}
+
+.goTo3 {
+    width: 929px;
+    height: 857px;
+    left: 26%;
+    border: 2px solid;
+    position: absolute;
+    background-color: red;
+    top: 110px;
+    z-index: 100;
+    opacity: 0%;
+    cursor: pointer;
+}
+
+.goTo3:disabled {
+    z-index: -1;
+}
+
+.rules {
+    color: white;
+    top: 300px;
+    position: absolute;
+    left: 100px;
+}
